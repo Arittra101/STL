@@ -12,10 +12,8 @@ int main()
     m.insert(make_pair("Momo",76));
     //cout<<m["Tashfia"];
 
-    for(it=m.begin();it!=m.end();it++)
+    for(it=m.begin(); it!=m.end(); it++)
     {
-
-
         cout<<it->first<<" "<<it->second<<endl;
     }
 
